@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import data from '../../data';
 import "../style.css"
-export const User = () => {
+export const Accordian = () => {
     const [selected, setselected] = useState(null);
     const [enableMultiselection, setenableMultiselection] = useState(false);
     const [Multiple, setMultiple] = useState([]);
