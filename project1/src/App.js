@@ -7,6 +7,7 @@ import ImageSlider from './Components/image-slider';
 import QRCode from 'react-qr-code';
 import QRCodeGenerator from './Components/QR-Code-Generator';
 import ModelTest from './Components/Custom-Model-Popup/modal-test';
+import LightDarkMode from './Components/Light-Dark-Modes';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
 
       {/* Project 6 */}
       {/* <ModelTest/> */}
+
+      {/* Projrct 7 */}
+      <LightDarkMode/>
     </div>
   );
 }
