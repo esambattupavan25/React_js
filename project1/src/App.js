@@ -12,6 +12,7 @@ import MenuItem from './Components/tree-view/menu-item';
 import menus from './Components/tree-view/data';
 import Treeview from './Components/tree-view';
 import ScrollIndicator from './Components/Scroll-indicator/scroll';
+import LoadMoreButtons from './Components/Load-More-Buttons';
 
 function App() {
   return (
@@ -32,16 +33,19 @@ function App() {
       {/* <QRCodeGenerator/> */}
 
       {/* Project 6 */}
+      {/* <LoadMoreButtons/> */}
+
+      {/* Project 7 */}
       {/* <ModelTest/> */}
 
-      {/* Projrct 7 */}
+      {/* Projrct 8 */}
       {/* <LightDarkMode/> */}
 
-      {/* project 8 */}
+      {/* project 9 */}
       {/* <Treeview menus={menus}/> */}
 
-      {/* Project 9 */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>
+      {/* Project 10 */}
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/> */}
     </div>
   );
 }
