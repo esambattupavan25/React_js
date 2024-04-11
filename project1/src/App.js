@@ -8,6 +8,10 @@ import QRCode from 'react-qr-code';
 import QRCodeGenerator from './Components/QR-Code-Generator';
 import ModelTest from './Components/Custom-Model-Popup/modal-test';
 import LightDarkMode from './Components/Light-Dark-Modes';
+import MenuItem from './Components/tree-view/menu-item';
+import menus from './Components/tree-view/data';
+import Treeview from './Components/tree-view';
+import ScrollIndicator from './Components/Scroll-indicator/scroll';
 
 function App() {
   return (
@@ -31,7 +35,13 @@ function App() {
       {/* <ModelTest/> */}
 
       {/* Projrct 7 */}
-      <LightDarkMode/>
+      {/* <LightDarkMode/> */}
+
+      {/* project 8 */}
+      {/* <Treeview menus={menus}/> */}
+
+      {/* Project 9 */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>
     </div>
   );
 }
