@@ -13,6 +13,11 @@ import menus from './Components/tree-view/data';
 import Treeview from './Components/tree-view';
 import ScrollIndicator from './Components/Scroll-indicator/scroll';
 import LoadMoreButtons from './Components/Load-More-Buttons';
+import TabTest from './Components/Custom-Tabs';
+import GithubProfileFinder from './Components/Github-Profile-finder';
+import SearchAutocomplete from './Components/search-autocomplete-with-API';
+import TicTacToe from './Components/tic-tact-toe';
+import UseFetchHookTest from './Components/Use-fetch/test';
 
 function App() {
   return (
@@ -46,6 +51,23 @@ function App() {
 
       {/* Project 10 */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/> */}
+       
+       {/* Project 11 */}
+       {/* <TabTest/> */}
+
+       {/* project 12 */}
+       {/* <GithubProfileFinder/> */}
+
+       {/* project 13 */}
+       {/* <SearchAutocomplete/> */}
+
+       {/* project 14 */}
+       {/* <TicTacToe/> */}
+
+       {/* project 15 */}
+       {/* <UseFetchHookTest/> */}
+   
+
     </div>
   );
 }
