@@ -88,7 +88,7 @@ function App() {
     {/* <UseOnclickOutsideTest/> */}
 
     {/* Project 20 */}
-    <UseWindowResizeTest/>
+    {/* <UseWindowResizeTest/> */}
    
     </div>
   );
