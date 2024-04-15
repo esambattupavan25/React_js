@@ -21,6 +21,7 @@ import UseFetchHookTest from './Components/Use-fetch/test';
 import FeatureFlags from './Components/Feature-Flag';
 import FeatureFlagGlobalState from './Components/Feature-Flag/Context';
 import ScrolltoTopAndBottom from './Components/Scroll-to-top-and-bottom';
+import ScrollToSection from './Components/scroll-to-particular-section/section';
 
 function App() {
   return (
@@ -76,7 +77,10 @@ function App() {
     {/* </FeatureFlagGlobalState> */}
 
     {/* project 17 */}
-    { <ScrolltoTopAndBottom/> }
+    {/* { <ScrolltoTopAndBottom/> } */}
+
+    {/* project 18 */}
+    <ScrollToSection/>
    
     </div>
   );
