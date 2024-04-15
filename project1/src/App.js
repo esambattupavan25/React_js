@@ -22,6 +22,8 @@ import FeatureFlags from './Components/Feature-Flag';
 import FeatureFlagGlobalState from './Components/Feature-Flag/Context';
 import ScrolltoTopAndBottom from './Components/Scroll-to-top-and-bottom';
 import ScrollToSection from './Components/scroll-to-particular-section/section';
+import UseOnclickOutsideTest from './Components/use-onclick-outside/test';
+import UseWindowResizeTest from './Components/use-window-resize/test';
 
 function App() {
   return (
@@ -80,7 +82,13 @@ function App() {
     {/* { <ScrolltoTopAndBottom/> } */}
 
     {/* project 18 */}
-    <ScrollToSection/>
+    {/* <ScrollToSection/> */}
+
+    {/* Project 19 */}
+    {/* <UseOnclickOutsideTest/> */}
+
+    {/* Project 20 */}
+    <UseWindowResizeTest/>
    
     </div>
   );
