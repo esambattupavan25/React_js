@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Accordian } from './Components/Accordion/User';
+import { Accordian } from './Components/Accordian/User';
 import Randomcolor from './Components/random colors';
 import StarRating from './Components/star-rating';
 import ImageSlider from './Components/image-slider';
@@ -18,6 +18,9 @@ import GithubProfileFinder from './Components/Github-Profile-finder';
 import SearchAutocomplete from './Components/search-autocomplete-with-API';
 import TicTacToe from './Components/tic-tact-toe';
 import UseFetchHookTest from './Components/Use-fetch/test';
+import FeatureFlags from './Components/Feature-Flag';
+import FeatureFlagGlobalState from './Components/Feature-Flag/Context';
+import ScrolltoTopAndBottom from './Components/Scroll-to-top-and-bottom';
 
 function App() {
   return (
@@ -66,8 +69,15 @@ function App() {
 
        {/* project 15 */}
        {/* <UseFetchHookTest/> */}
-   
+    
+    {/* Project 16 */}
+    {/* <FeatureFlagGlobalState> */}
+      {/* <FeatureFlags/> */}
+    {/* </FeatureFlagGlobalState> */}
 
+    {/* project 17 */}
+    { <ScrolltoTopAndBottom/> }
+   
     </div>
   );
 }

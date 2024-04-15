@@ -2,10 +2,11 @@
 import MenuItem from "./menu-item";
 
 export default function MenuList({ list = [] }) {
+  console.log("list", list)
   return (
-    <ul className="menu-list-container">
+    <ul className="menu-list-conatainer">
       {list && list.length
-        ? list.map((listItem) => <MenuItem item={listItem} />)
+        ? ((listItem) => <MenuItem item={listItem} />)
         : null}
     </ul>
   );
